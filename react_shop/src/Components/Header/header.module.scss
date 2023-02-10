@@ -1,0 +1,30 @@
+header {
+    height: 42px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSide {
+    display: flex;
+    align-items: center;
+    img {
+        height: 42px;
+    }
+}
+.rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+}
+.iconsList {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 830px) {
+    .iconsList {
+        width: 200px;
+    }
+}

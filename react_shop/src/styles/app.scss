@@ -1,0 +1,48 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+span,
+a,
+p,
+input,
+button,
+select {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(123, 155, 252, 0.386);
+}
+
+
+.wrapper {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.161);
+  font-family: "Poppins", sans-serif;
+  max-width: 1248px;
+  min-width: 360px;
+  padding: 50px;
+  padding-bottom: 0px;
+  background-color: white;
+  margin: 64px auto;
+}
+@media screen and (max-width: 1248px) {
+    .wrapper {
+      margin: 0px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .wrapper {
+      padding: 10px;
+    }
+}

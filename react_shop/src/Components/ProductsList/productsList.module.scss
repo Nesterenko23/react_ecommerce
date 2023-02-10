@@ -1,0 +1,16 @@
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 57px;
+  row-gap: 86px;
+  margin-top: 39px;
+  width: 100%;
+}
+.paginationBlock {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

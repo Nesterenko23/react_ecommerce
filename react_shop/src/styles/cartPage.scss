@@ -1,0 +1,125 @@
+.cart {
+  height: 90vh;
+  .cartSection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &__productsList {
+      height: 80vh;
+      overflow: auto;
+      width: 550px;
+      .cartItem {
+        padding: 10px;
+        margin: 0px auto;
+        height: 132px;
+        display: flex;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+        &__itemInfoLeft {
+          display: flex;
+          margin-left: 10px;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 80%;
+          height: 75px;
+        }
+        &__itemInfoRight {
+          div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 75px;
+          width: 20%;
+        }
+      }
+    }
+    &__infoBlock {
+      width: 500px;
+      padding: 10px;
+      &-infoBar {
+        display: flex;
+        justify-content: space-between;
+        line-height: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.179);
+        border-bottom: 0px;
+        padding: 10px;
+      }
+      &-totalBar {
+        width: 478.5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: 30px;
+        background-color: rgba(128, 128, 128, 0.108);
+        border: 1px solid rgba(0, 0, 0, 0.179);
+      }
+    }
+    @media screen and (max-width: 980px) {
+      flex-direction: column;
+      justify-content: baseline;
+      &__productsList {
+        height: fit-content;
+      }
+    }
+  }
+}
+@media screen and (max-width: 980px) {
+  .cart {
+    height: 100vh;
+    background-color: white;
+    width: 100%;
+    .cartSection {
+      &__productsList {
+        height: 40vh;
+        width: 100%;
+        .cartItem {
+          width: 95%;
+          height: 35%;
+          font-size: 12px;
+          padding: 10px 10px;
+          &__itemInfoRight {
+            div {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            }
+          }
+        }
+      }
+      &__infoBlock {
+        width: 100%;
+        padding: 0px;
+        &-infoBar {
+          display: flex;
+          justify-content: space-between;
+          line-height: 40px;
+          border: 1px solid rgba(0, 0, 0, 0.179);
+          border-bottom: 0px;
+        }
+        &-totalBar {
+          width: 100%;
+          padding: 0px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 30px;
+          background-color: rgba(128, 128, 128, 0.108);
+          border: 0px solid rgba(0, 0, 0, 0.179);
+          span {
+            margin: 10px;
+          }
+        }
+        &-shipInfo {
+          padding: 0px;
+          width: 10px;
+          height: 10vh;
+        }
+      }
+    }
+  }
+}

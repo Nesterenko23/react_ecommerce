@@ -1,0 +1,37 @@
+.active {
+  background-color: #355c97;
+  color: white;
+}
+.categories ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    }
+}
+.popup {
+    margin: 0px auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.popup select {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1248px) {
+    .categories {
+        overflow: auto;
+        width: 100%;
+        ul {
+            width: 1200px;
+        }
+    }
+  }

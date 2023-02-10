@@ -1,0 +1,36 @@
+.productsSection {
+    margin-top: 64px;
+}
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionTitle {
+    font-size: 33px;
+}
+
+.sortBlock {
+    display: flex;
+    margin: 40px 0px;
+    flex-direction: column;
+}
+.sectionSearch {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    padding: 0px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.179);
+    input {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .sectionTitle {
+        font-size: 20px; 
+    }
+  }

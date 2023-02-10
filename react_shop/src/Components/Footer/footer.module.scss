@@ -1,0 +1,26 @@
+.footer {
+    border-top: 1px solid gray;
+    height: 159px;
+    margin-top: 50px; // old value 250px 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fLeftSide {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+}
+.fLeftSide div {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1248px) {
+    .fRightSide {
+        display: none;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+.productsCard {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.179);
+    justify-content: space-between;
+    height: 472px;
+}
+.productsCard img {
+    height: 380px;
+    width: 100%;
+}
+.cardInfo{
+    font-size: 18px;
+    padding: 10px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cardTitle {
+    color: #007dbc;
+}
+
+.cardPrice {
+    color: black;
+}
+
+@media screen and (max-width: 830px) {
+    .productsCard {
+        width: 30px;
+    }
+}

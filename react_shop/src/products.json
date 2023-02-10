@@ -1,0 +1,342 @@
+{
+    "products" : [
+        {
+            "id" : "1",
+            "title" : "120 Boxing Training Gloves",
+            "description" : [
+                "Padding: 100.0% Polyurethane ; Main fabric: 60.0% Polyurethane, 40.0% Polyethylene Terephtalate ; Main lining: 100.0% Polyethylene Terephtalate",
+                "Molded single-density foam to cushion against impacts.",
+                "The polyurethane rip-tab fastening fits snugly around your wrists.",
+                "3D mesh on the palm, micro-perforated PU on the rest of the hand.",
+                "Synthetic outer coating (PU) withstands repeated impacts."
+            ],
+            "price" : 25.00,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 4,
+            "color" : "Black",
+            "model" :   "8578460",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8578460-product_image-2217587_960x.jpg?v=1673936771",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8578460-product_image-2217586_960x.jpg?v=1673936772",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8578460-product_image-2190166_960x.jpg?v=1673505105",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8578460-product_image-1851938_960x.jpg?v=1673505105"
+                
+            ]
+        },
+        {
+            "id" : "2",
+            "title" : "500 Kickboxing Gloves",
+            "description" : [
+                "Padding: 100.0% Polyurethane ; Main fabric: 60.0% Polyurethane, 40.0% Polyester cationic",
+                "Its dual-density ergonomic foam and inner foam reinforcements.",
+                "Quick wrist fastening with a wide strap and buckle.",
+                "Reinforced polyurethane outer cover.",
+                "Micro-perforated palm."
+            ],
+            "price" : 30.00,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 5,
+            "color" : "Base Color",
+            "model" :   "8554742",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8554742-product_image-2190239_960x.jpg?v=1673936816",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8554742-product_image-2190238_960x.jpg?v=1670790613",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8554742-product_image-2190237_960x.jpg?v=1670790615"
+            ]
+        },
+        {
+            "id" : "3",
+            "title" : "900 Boxing Sparring Gloves",
+            "description" : [
+                "Padding: 100.0% Polyurethane ; Main fabric: 100.0% Polyurethane ; Cuff: 100.0% Rubber - Chloroprene - Neoprene ; Lining: 100.0% Polyamide",
+                "Enjoy even more cushioning while sparring thanks to triple-density foam.",
+                "Optimal wrist support provided by the circular dual fastening strap.",
+                "Inner glove made of micro-perforated polyurethane to keep the hand ventilated.",
+                "Elastic PU cover is flexible and durable."
+            ],
+            "price" : 40.00,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 5,
+            "color" : "Black",
+            "model" :   "8503441",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8503441-product_image-1647722_960x.jpg?v=1673933265",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8503441-product_image-1647716_960x.jpg?v=1670762791",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8503441-product_image-1647724_960x.jpg?v=1670762793",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8503441-product_image-1647720_960x.jpg?v=1670762796"
+            ]
+        },
+        {
+            "id" : "4",
+            "title" : "Ergo 500 Boxing Gloves",
+            "description" : [
+                "Padding: 100.0% Polyurethane ; Main fabric: 100.0% Polyurethane ; Lining: 100.0% Polyamide ; Cuff: 100.0% Rubber - Chloroprene - Neoprene",
+                "Double density foam for comfort and cushioning on the bag or when sparring.",
+                "Circular cuffs with 360° wrist lock.",
+                "Mesh interior to ventilate your hand.",
+                "Your glove is durable for longer thanks to the synthetic PU covering."
+            ],
+            "price" : 35.00,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 4,
+            "color" : "Linen",
+            "model" :   " 8510245",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510245-product_image-1646344_960x.jpg?v=1673933743",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510245-product_image-1646348_960x.jpg?v=1670767199",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510245-product_image-1646345_960x.jpg?v=1670767202",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510245-product_image-1646343_960x.jpg?v=1670767204",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510245-product_image-1646351_960x.jpg?v=1670767207"
+            ]
+        },
+        {
+            "id" : "5",
+            "title" : "100 Essential Boxing Gloves",
+            "description" : [
+                "Foam: 100.0% Polyurethane ; Main fabric: 60.0% Polyethylene Terephtalate, 40.0% Polyurethane ; Lining: 100.0% Polyester (PES) - Recycled ; Hook and loop tape: 100.0% Polyamide",
+                "Mono-density foam provides good cushioning while striking.",
+                "Extended foam around the wrist for ideal support.",
+                "Exterior polyurethane coating for optimal durability.",
+                "Micro-ventilated mesh fabric to ventilate the palm of the hand."
+            ],
+            "price" : 22.99,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 5,
+            "color" : "Cherry Red",
+            "model" :   "8651249",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651249-product_image-2217572_960x.jpg?v=1673940373",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651249-product_image-2217571_960x.jpg?v=1670816408",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651249-product_image-2190115_960x.jpg?v=1670816409"
+            ]
+        },
+        {
+            "id" : "6",
+            "title" : "900 Boxing Sparring Gloves",
+            "description" : [
+                "Padding: 100.0% Polyurethane ; Main fabric: 50.0% Polyurethane, 46.0% Polyethylene Terephtalate, 4.0% Spandex ; Lining: 100.0% Polyethylene Terephtalate",
+                "Ergonomic, triple-density foam.",
+                "Wrist strap with padding on the inside.",
+                "Durable synthetic coating for intensive training."
+            ],
+            "price" : 40.00,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 4,
+            "color" : "Steel Gray",
+            "model" :   "8600564",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8600564-product_image-2190173_960x.jpg?v=1673939466",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8600564-product_image-1990714_960x.jpg?v=1670811065",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8600564-product_image-1990721_960x.jpg?v=1670811066",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8600564-product_image-1990717_960x.jpg?v=1670811067"
+            ]
+        },
+        {
+            "id" : "7",
+            "title" : "500 Boxing Gloves Unisex",
+            "description" : [
+                "Padding: 100.0% Polyurethane ; Main fabric: 60.0% Polyurethane, 40.0% Polyethylene Terephtalate ; Cuff: 58.0% Polyethylene Terephtalate, 4.0% Polyethylene Co-Vinyl Acetate, 38.0% Polyurethane ; Lining: 100.0% Polyethylene Terephtalate ; Hook and loop tape: 100.0% Polyamide 6.6",
+                "Dual-density foam for optimal cushioning on the bag or when sparring.",
+                "Circular cuffs with 360° wrist lock.",
+                "The synthetic PU covering means your glove is durable for longer.",
+                "Mesh interior for good hand ventilation.",
+                "Product that has seen its carbon footprint reduced by 10% (minimum)."
+            ],
+            "price" : 54.99,
+            "size" : [
+                "8oz",
+                "10oz",
+                "12oz",
+                "14oz",
+                "16oz"
+            ],
+            "rating" : 5,
+            "color" : "Black",
+            "model" :   "8651248",
+            "category" :    2,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651248-product_image-2217631_960x.jpg?v=1673940394",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651248-product_image-2190123_960x.jpg?v=1673002251",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651248-product_image-2190122_960x.jpg?v=1673002253",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8651248-product_image-2190132_960x.jpg?v=1673002253"
+            ]
+        },
+        {
+            "id" : "8",
+            "title" : "100 Inflatable Freestanding Punching Bag",
+            "description" : [
+                "After minimum inflation, the bag has enough rebound to safely practice strikes.",
+                "Quick inflation with a universal pump (not provided) and deflates in 5 seconds.",
+                "Easy to move with the handles under the base.",
+                "63 long for doing both punches and kicks.",
+                "Fill the base with water or sand for better stability."
+            ],
+            "price" : 99.99,
+            "size" : ["One size"],
+            "rating" : 4,
+            "color" : "Black",
+            "model" :   "8549542",
+            "category" :    1,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8549542-product_image-2150785_960x.jpg?v=1674531231",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8549542-product_image-2150788_960x.jpg?v=1670791351",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8549542-product_image-2150786_960x.jpg?v=1674531232",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8549542-product_image-2190260_960x.jpg?v=1674531234",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8549542-product_image-2191773_960x.jpg?v=1670791354"
+            ]
+        },
+        {
+            "id" : "9",
+            "title" : "Boxing Bag + Gloves Set",
+            "description" : [
+                "Main fabric: 100.0% Polyethylene Terephtalate ; Foam: 100.0% Foamed Polyurethane ; Buckles: 100.0% Steel ; Lining: 100.0% Polyamide",
+                "Polyester fabric gloves for good abrasion resistance.",
+                "11 lbs weight for comfortable training",
+                "Fabric padding"
+            ],
+            "price" : 69.99,
+            "size" : ["One size"],
+            "rating" : 5,
+            "color" : "Red",
+            "model" :   "8522406",
+            "category" :    1,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8522406-product_image-2281265_422x.jpg?v=1674529067",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8522406-product_image-2190284_422x.jpg?v=1674529068",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8522406-product_image-2190285_422x.jpg?v=1670775883"
+            ]
+        },
+        {
+            "id" : "10",
+            "title" : "Punching Ball + 4oz Boxing Gloves Set",
+            "description" : [
+                "Structure: 100.0% Steel ; Base: 100.0% Polyvinyl chloride ; Foam part: 100.0% Foamed Polyurethane.",
+                "Ball made of preformed foam. Steel pole for maximum resistance.",
+                "Weightable base (with water or sand) guaranteeing perfect stability.",
+                "The punching ball is designed to train your punches. The foam ball and sprung, stable metal base guarantee good responsiveness. The height (39.4 - 51.2) can be easily adjusted using the wheel on the central metal shaft. This punching ball comes with a pair of junior gloves in size 4 oz (5-10 years)."
+            ],
+            "price" : 79.99,
+            "size" : ["One size"],
+            "rating" : 4,
+            "color" : "Black",
+            "model" :   "8510128",
+            "category" :    1,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510128-product_image-2190341_422x.jpg?v=1674527774",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510128-product_image-2190340_422x.jpg?v=1674527774",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510128-product_image-2190339_422x.jpg?v=1670767017",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8510128-product_image-1870001_422x.jpg?v=1670767018"
+            ]
+        },
+        {
+            "id" : "11",
+            "title" : "850 Punching Bag",
+            "description" : [
+                "Main fabric: 100.0% Polyethylene Terephtalate ; Structure: 100.0% Steel ; Webbing: 100.0% Polyethylene Terephtalate.",
+                "Fabric padding.",
+                "33 lbs to guarantee good stability when hit.",
+                "Fabric cover for lasting resistance to wear."
+            ],
+            "price" : 45.00,
+            "size" : ["One size"],
+            "rating" : 5,
+            "color" : "Scarlet Red",
+            "model" :   "8365166",
+            "category" :    1,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365166-product_image-2190374_422x.jpg?v=1674595054",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365166-product_image-2218297_422x.jpg?v=1674595055",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365166-product_image-2190376_422x.jpg?v=1672904228",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365166-product_image-2190375_422x.jpg?v=1672904228"
+            ]
+        },
+        {
+            "id" : "12",
+            "title" : "Adjustable Punching Ball Adult",
+            "description" : [
+                "Main fabric: Bottom ; Ball: 100.0% Thermoplastic Polyethylene ; Lower part - Main fabric: 100.0% Steel ; Tube: 100.0% Iron.",
+                "Ball made of preformed foam. Steel pole for maximum resistance.",
+                "The base can be weighted with water or sand for excellent stability.",
+                "Adjustable height (51.2 - 63)."
+            ],
+            "price" : 94.99,
+            "size" : ["One size"],
+            "rating" : 4,
+            "color" : "Black",
+            "model" :   "8392371",
+            "category" :    1,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8392371-product_image-2190364_422x.jpg?v=1674608251",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8392371-product_image-2190365_422x.jpg?v=1674608252",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8392371-product_image-2190362_422x.jpg?v=1670692786",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8392371-product_image-2191783_422x.jpg?v=1670692788",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8392371-product_image-2190372_422x.jpg?v=1670692791"
+            ]
+        },
+        {
+            "id" : "13",
+            "title" : "1200 Punching Bag",
+            "description" : [
+                "Structure: 100.0% Steel ; Main fabric: 100.0% Polyurethane.",
+                "Fabric padding.",
+                "66 lbs. to guarantee good stability when hit powerfully.",
+                "Bag made with synthetic cover (PU) for extra durability.",
+                "47.2 long for doing both punches and kicks."
+            ],
+            "price" : 119.00,
+            "size" : ["One size"],
+            "rating" : 5,
+            "color" : "Black",
+            "model" :   "8365168",
+            "category" :    1,
+            "images" :   [
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365168-product_image-937718_422x.jpg?v=1674599561",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365168-product_image-937732_422x.jpg?v=1670650647",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365168-product_image-937726_422x.jpg?v=1670650649",
+                "https://cdn.shopify.com/s/files/1/1330/6287/products/8365168-product_image-937721_422x.jpg?v=1670650652"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+.imageSection {
+
+    margin-top: 16px;
+    img {
+        height: auto;
+        border-radius: 0px;
+        width: 100%;
+    }
+}
+.productsSection {
+    margin-top: 64px;
+}
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionTitle {
+    font-size: 33px;
+}
+.sectionNav {
+    font-size: 20px;
+    color: #A18A68;
+}
+
+@media screen and (max-width: 830px) {
+    .sectionTitle {
+        font-size: 20px;
+    }
+    .sectionNav {
+        font-size: 16px;
+    }
+}
