@@ -7,6 +7,7 @@ const CardSkeleton = () => {
     <Grid item xs={12} sm={6} md={4} lg={3}>
       <Stack spacing={1} sx={{margin: '20px 20px'}}>
       <Skeleton variant="rounded" height={350}/>
+      <h1>TEST</h1>
     </Stack>
     </Grid>
     
