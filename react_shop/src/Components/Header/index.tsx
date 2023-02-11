@@ -9,6 +9,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import { cartSelector } from "../../Redux/Slices/cartSlice";
 import { productsSelector } from "../../Redux/Slices/cartSlice";
 import { useAppSelector } from "../../Redux/hooks";
+import { useNavigate } from "react-router-dom";
 import logo from "../../Icons/logo.png";
 import TemporaryDrawer from "../Drawer";
 
@@ -16,6 +17,7 @@ const navList: string[] = ["Shop", "Blog", "Our story"];
 
 const IconsList = () => {
   const products = useAppSelector(productsSelector);
+  const navigate = useNavigate();
   const {totalPrice} = useAppSelector(cartSelector)
   return (
     <div className={styles.iconsList}>
@@ -24,7 +26,6 @@ const IconsList = () => {
       </IconButton>
       <div style={{display: 'flex', alignItems: 'center'}}>
       <span style={{marginTop: '5px'}}>${Math.round(totalPrice * 100) / 100}</span>
-      <Link to="/cart">
         <Badge
           sx={{
             position: "absolute",
@@ -35,9 +36,8 @@ const IconsList = () => {
           color="primary"
         ></Badge>
         <IconButton>
-          <LocalMallOutlinedIcon />
+          <LocalMallOutlinedIcon onClick={()=>navigate("/cart")} />
         </IconButton>
-      </Link>
       </div>
       
 

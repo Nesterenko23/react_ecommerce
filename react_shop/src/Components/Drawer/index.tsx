@@ -2,7 +2,7 @@ import Drawer from "@mui/material/Drawer";
 import React from "react";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./drawer.module.scss";
 interface DrawerProps {
   navList: string[];
@@ -11,7 +11,7 @@ interface DrawerProps {
 
 const TemporaryDrawer = ({ navList, logo }: DrawerProps) => {
   const [isOpen, setIsOpen] = React.useState(false);
-
+  const navigate = useNavigate();
   return (
     <>
       <IconButton onClick={() => setIsOpen(true)}>
@@ -19,9 +19,7 @@ const TemporaryDrawer = ({ navList, logo }: DrawerProps) => {
       </IconButton>
       <Drawer anchor="left" open={isOpen} onClose={() => setIsOpen(false)}>
         <div className={styles.drawerBlock}>
-          <Link to="/">
-            <img src={logo} onClick={() => setIsOpen(false)}></img>
-          </Link>
+            <img src={logo} onClick={() => {setIsOpen(false); navigate('/')}}></img>
           {navList.map((point, index) => (
             <div
               onClick={() => setIsOpen(false)}

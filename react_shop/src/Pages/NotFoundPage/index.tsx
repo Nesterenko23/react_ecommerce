@@ -18,7 +18,7 @@ const NotFoundPage = () => {
         <h1>
             Please, check your URL or click the button below
         </h1>
-        <Button onClick={() => navigate('/')} sx={{width: '20%', height: '50px', marginTop: '20px'}} variant='contained'>Home</Button>
+        <Button onClick={() => navigate('/')} sx={{width: 'auto', height: '50px', marginTop: '20px'}} variant='contained'>Home</Button>
     </section>
   )
 }

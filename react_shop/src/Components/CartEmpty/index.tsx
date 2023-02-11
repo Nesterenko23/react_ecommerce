@@ -10,7 +10,7 @@ const CartEmpty = () => {
       <span>🥱</span>
       <h1>Cart is empty</h1>
       <h1>Let's fix it</h1>
-      <Button onClick={() => navigate('/allProducts')} sx={{width: '20%', height: '50px', marginTop: '20px'}} variant='contained'>Products List</Button>
+      <Button onClick={() => navigate('/allProducts')} sx={{width: 'auto', height: '50px', marginTop: '20px'}} variant='contained'>Products List</Button>
     </div>
   )
 }
