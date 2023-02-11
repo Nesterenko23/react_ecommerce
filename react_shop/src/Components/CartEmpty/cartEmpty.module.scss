@@ -1,0 +1,17 @@
+.emptyCart {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    span {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .emptyCart {
+        height: 700px;
+        font-size: 10px;
+    }
+  }

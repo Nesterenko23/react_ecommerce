@@ -2,15 +2,19 @@ import React from "react";
 import { removeProduct, cartSelector } from "../../Redux/Slices/cartSlice";
 import Button from "@mui/material/Button";
 import styles from "./cartPage.module.scss";
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import { useAppDispatch, useAppSelector } from "../../Redux/hooks";
+import { IconButton } from "@mui/material";
+import CartEmpty from "../../Components/CartEmpty";
 const CartPage = () => {
   const { products, totalCount, totalPrice } = useAppSelector(cartSelector);
   const dispatch = useAppDispatch();
 
   return (
     <div className={styles.cart}>
-      <ul className={styles.productList}>
+      {
+        products.length!=0?<>
+          <ul className={styles.productList}>
         {products.map((el) => (
           <li key={el.id + el.size} className={styles.cartProduct}>
             <img className={styles.productImg} src={el.images[0]} alt="" />
@@ -28,7 +32,9 @@ const CartPage = () => {
                 <b>{el.count}</b>
               </span>
             </div>
-            <CloseOutlinedIcon onClick={() => dispatch(removeProduct(el))}/>
+            <IconButton  onClick={() => dispatch(removeProduct(el))} >
+              <CloseOutlinedIcon/>
+            </IconButton>
           </li>
         ))}
       </ul>
@@ -72,6 +78,11 @@ const CartPage = () => {
           Check Out
         </Button>
       </div>
+        </>
+        :
+        <CartEmpty/>
+      }
+      
     </div>
   );
 };

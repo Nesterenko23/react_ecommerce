@@ -21,15 +21,11 @@ export const ProductCard = ({ item }: ProductProps) => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
   return (
-    <Card sx={{ position: "relative" }}>
+    <Card className={styles.productsCard}>
       <div
+        className={styles.saveButton}
         style={{
-          height: "50px",
-          width: "50px",
-          position: "absolute",
-          left: "0",
-          top: "0",
-          zIndex: "10",
+          
         }}
       >
         <Checkbox

@@ -1,16 +1,5 @@
 .productsCard {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.179);
-    justify-content: space-between;
-    height: 472px;
-}
-.productsCard img {
-    height: 380px;
-    width: 100%;
+    position: relative;
 }
 .cardInfo{
     font-size: 18px;
@@ -28,9 +17,11 @@
 .cardPrice {
     color: black;
 }
-
-@media screen and (max-width: 830px) {
-    .productsCard {
-        width: 30px;
-    }
+.saveButton {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
 }
