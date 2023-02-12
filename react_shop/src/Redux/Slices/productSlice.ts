@@ -54,7 +54,6 @@ extraReducers: (builder) => {
 
     builder.addCase(fetchItems.pending, (state, action) => {
         state.status = 'loading'
-        console.log("loading")
       })
     builder.addCase(fetchItems.fulfilled, (state, action) => {
         state.items = action.payload

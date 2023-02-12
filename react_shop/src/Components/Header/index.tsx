@@ -13,43 +13,11 @@ import { useNavigate } from "react-router-dom";
 import logo from "../../Icons/logo.png";
 import TemporaryDrawer from "../Drawer";
 
-const navList: string[] = ["Shop", "Blog", "Our story"];
-
-const IconsList = () => {
-  const products = useAppSelector(productsSelector);
-  const navigate = useNavigate();
-  const {totalPrice} = useAppSelector(cartSelector)
-  return (
-    <div className={styles.iconsList}>
-      <IconButton>
-        <SearchOutlinedIcon />
-      </IconButton>
-      <div style={{display: 'flex', alignItems: 'center'}}>
-      <span style={{marginTop: '5px'}}>${Math.round(totalPrice * 100) / 100}</span>
-        <Badge
-          sx={{
-            position: "absolute",
-            marginLeft: "32px",
-            marginTop: "10px",
-          }}
-          badgeContent={products.length}
-          color="primary"
-        ></Badge>
-        <IconButton>
-          <LocalMallOutlinedIcon onClick={()=>navigate("/cart")} />
-        </IconButton>
-      </div>
-      
-
-      <IconButton>
-        <FavoriteBorderOutlinedIcon />
-      </IconButton>
-    </div>
-  );
-};
-
 const Header = () => {
   const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
+  const products = useAppSelector(productsSelector);
+  const { totalPrice } = useAppSelector(cartSelector);
+  const navigate = useNavigate();
 
   React.useEffect(() => {
     const changeWidth = () => {
@@ -69,14 +37,18 @@ const Header = () => {
         <>
           <div className={styles.leftSide}>
             <Link to="/">
-              <img src={logo} alt="Logo icon" />
+              <img
+                className={styles.logo}
+                src={logo}
+                alt="Logo icon"
+                onClick={() => navigate("/")}
+              />
             </Link>
           </div>
           <nav className={styles.rightSide}>
-            {navList.map((point, key) => (
-              <span key={key}>{point}</span>
-            ))}
-
+            <span>Shop</span>
+            <span>Blog</span>
+            <span>Our story</span>
             <svg
               width="1"
               height="17"
@@ -92,15 +64,42 @@ const Header = () => {
                 stroke="#707070"
               />
             </svg>
-            <IconsList />
           </nav>
         </>
       ) : (
         <>
-          <TemporaryDrawer navList={navList} logo={logo} />
-          <IconsList />
+          <TemporaryDrawer logo={logo} />
         </>
       )}
+
+      <div className={styles.iconsList}>
+        <IconButton>
+          <SearchOutlinedIcon />
+        </IconButton>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <span style={{ marginTop: "5px" }}>
+            ${Math.round(totalPrice * 100) / 100}
+          </span>
+          <div onClick={() => navigate("/cart")}>
+            <Badge
+              sx={{
+                position: "absolute",
+                marginLeft: "32px",
+                marginTop: "10px",
+              }}
+              badgeContent={products.length}
+              color="primary"
+            ></Badge>
+            <IconButton>
+              <LocalMallOutlinedIcon />
+            </IconButton>
+          </div>
+        </div>
+
+        <IconButton>
+          <FavoriteBorderOutlinedIcon />
+        </IconButton>
+      </div>
     </header>
   );
 };

@@ -1,31 +1,32 @@
 header {
-    height: 42px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+  height: 42px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .leftSide {
-    display: flex;
-    align-items: center;
-    img {
-        height: 100px;
-    }
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  img {
+    width: 100px;
+  }
 }
 .rightSide {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 350px;
 }
 .iconsList {
-    width: 270px;
-    display: flex;
-    justify-content: space-between;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
-
 @media screen and (max-width: 830px) {
-    .iconsList {
-        width: 200px;
-    }
+  .iconsList {
+    width: 200px;
+  }
 }
